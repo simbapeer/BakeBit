@@ -25,6 +25,7 @@ SOFTWARE.
 #include <stdlib.h>
 #include <fcntl.h>
 #include <sys/mman.h>
+#include <sys/types.h>
 #include "c_gpio.h"
 
 #define BCM2708_PERI_BASE_DEFAULT   0x20000000
